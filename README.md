@@ -542,7 +542,7 @@ it takes about two minutes and only needs to be done once.
 ```bash
 curl -o ~/tools/jira-export/.env.jira.sample https://raw.githubusercontent.com/sandipansaha/jira-export/main/.env.jira.sample
 cp ~/tools/jira-export/.env.jira.sample ~/tools/jira-export/.env.jira
-open ~/tools/jira-export/.env.jira
+open -a TextEdit ~/tools/jira-export/.env.jira
 ```
 
 This opens the file in TextEdit. Fill in your three values and save:
