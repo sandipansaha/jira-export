@@ -1,0 +1,79 @@
+# =============================================================================
+# bin/jira — Jira Ticket Exporter
+# =============================================================================
+
+# Jira credentials — never commit your API token
+.env.jira
+
+# Exported ticket output (default JIRA_DIR)
+# If you set a custom JIRA_DIR in .env.jira, add that directory here too
+.jira/
+
+# =============================================================================
+# OS
+# =============================================================================
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# =============================================================================
+# Editors and IDEs
+# =============================================================================
+
+# JetBrains (PhpStorm, PyCharm, WebStorm, etc.)
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# Vim / Neovim
+*.swp
+*.swo
+*.swn
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+Session.vim
+.netrwhist
+
+# Emacs
+*~
+\#*\#
+.\#*
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# =============================================================================
+# Misc
+# =============================================================================
+
+# Environment files (catch-all — .env.jira is listed explicitly above)
+.env
+.env.*
+!.env.jira.sample
+
+# Logs
+*.log
