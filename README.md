@@ -34,7 +34,7 @@ reading, documentation, or changelogs.
 9. [Finding your custom field IDs](#finding-your-custom-field-ids)
 10. [Usage](#usage)
 11. [What the Markdown file contains](#what-the-markdown-file-contains)
-12. [🟢 Using this as a standalone tool — **no coding required**](#using-this-as-a-standalone-tool-no-coding-required)
+12. [🟢 Using this as a standalone tool — **no coding required**](#-using-this-as-a-standalone-tool--no-coding-required)
 13. [How it works internally](#how-it-works-internally)
 14. [Security notes (detailed)](#security-notes)
 15. [Troubleshooting](#troubleshooting)
