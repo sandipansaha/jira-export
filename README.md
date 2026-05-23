@@ -540,6 +540,7 @@ it takes about two minutes and only needs to be done once.
 **5. Create your config file**
 
 ```bash
+curl -o ~/tools/jira-export/.env.jira.sample https://raw.githubusercontent.com/sandipansaha/jira-export/main/.env.jira.sample
 cp ~/tools/jira-export/.env.jira.sample ~/tools/jira-export/.env.jira
 open ~/tools/jira-export/.env.jira
 ```
