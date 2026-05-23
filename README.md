@@ -526,7 +526,7 @@ Create a folder for the tool and download the script into it:
 
 ```bash
 mkdir -p ~/tools/jira-export/bin
-curl -o ~/tools/jira-export/bin/jira https://raw.githubusercontent.com/your-repo/bin/jira
+curl -o ~/tools/jira-export/bin/jira https://raw.githubusercontent.com/sandipansaha/jira-export/main/bin/jira
 chmod +x ~/tools/jira-export/bin/jira
 ```
 
